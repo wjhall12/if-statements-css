@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(220, 100%, 50%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: hsl(220, 100%, 40%);
+}
+
+#resultElement {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+________________________________________
